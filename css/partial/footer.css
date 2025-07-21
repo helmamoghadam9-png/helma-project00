@@ -1,0 +1,137 @@
+.parent-footer{
+    width: inherit;
+    height: 400px;
+    
+    .top-footer{
+        width: inherit;
+        height: 90px;
+        background-color: #e2e2e2;
+        display: flex;
+        align-items: center;
+        flex-flow: row;
+        .phone-svg{
+            margin-top: 3px;
+            margin-right: 150px;
+        }
+        .number-footer{
+            font-family: shabnam;
+            color: #7b7b7b;
+            font-size: 15px;
+            margin-right: -10px;
+        }
+        .clock-svg{
+            margin-top: 3px;
+            
+        }
+        .days-footer{
+            font-family: shabnam;
+            color: #7b7b7b;
+            font-size: 14px;
+            margin-right: -10px;
+        }
+        .location-svg{
+            margin-top: 3px;
+            
+        }
+        .addres-footer{
+            font-family: shabnam;
+            color: #7b7b7b;
+            font-size: 14px;
+            margin-right: -10px;
+        }
+        .go-top{
+            width: 95px;
+            height: 45px;
+            font-family: shabnam;
+            font-size: 12px;
+            background-color: #ffffff;
+            color: #7b7b7b;
+            text-align: center;
+            padding-top: 12px;
+            margin-right: 15px;
+            border-radius: 10px;
+        }
+    }
+    .bottom-footer{
+        width: inherit;
+        height: 310px;
+        
+        display:flex ;
+        flex-flow: row;
+        .logo-footer{
+            width: 410px;
+            height: inherit;
+            
+            .img-logo-footer{
+                width: 190px;
+                height: auto;
+                margin-right: 190px;
+                margin-top: 100px;
+                margin-bottom: 10px;
+            }
+            .span-footer-logo{
+                font-family: shabnam;
+                font-size: 14px;
+                
+                margin-right: 195px;
+                margin-left: 15px;
+            }
+            
+        }
+        .dastresi-store{
+            width: 610px;
+            height: inherit;
+        
+            .title-store{
+                font-family: shabnam_1;
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+            .text-store{
+                margin-top: 20px;
+                font-family: shabnam;
+                font-size: 16px;
+                line-height: 30px;
+                font-weight: lighter;
+                color: #7b7b7b;
+            }
+        }
+        .dastresi-fast{
+            width: 125px;
+            height: inherit;
+            margin-right: 40px;
+            .title-fast{
+                font-family: shabnam_1;
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+            .fast-item{
+                line-height: 40px;
+                font-family: shabnam;
+                font-size: 14px;
+                color: #7b7b7b;
+            }
+        }
+        .namad{
+            width: auto;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 110px;
+        }
+    }
+    .dastresi-rule{
+        width: inherit;
+        height: 50px;
+        background-color: #0a5abd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-family: shabnam;
+        font-size: 14px;
+    }
+}

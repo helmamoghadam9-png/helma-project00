@@ -1,0 +1,168 @@
+.seller-parent{
+    width: 1220px;
+    height: 450px;
+    margin-right: 230px;
+    
+    border-radius: 10px;
+    .top-seller{
+        width: inherit;
+        height: 80px;
+        
+        position: relative;
+        display: flex;
+        align-items: center;
+        .seller-span1{
+            font-family: shabnam_1;
+            color: #757575;
+            font-size: 21px;
+            font-weight: bolder;
+            position: absolute;
+            right: 40px;
+        }
+        .seller-span2{
+            position: absolute;
+            left: 55px;
+            font-family: shabnam_1;
+            color: #757575;
+            font-size: 13px;
+            
+        }
+        .seller-svg{
+            
+            position: absolute;
+            left: 15px;
+        }
+    }
+    .bottom-seller{
+        width: 1000px;
+        height: 350px;
+        margin-right: 60px;
+        .swiper {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      box-shadow: 1px 1px 1px rgba(152, 152, 152, 0.441);
+      align-items: center;
+      border-radius: 10px;
+      &:hover{
+            color: #0A5ABD;
+        }
+        .seller-bottom-section1{
+            width: inherit;
+            height: 60px;
+            
+          position: absolute;
+          bottom: 0px;
+          border-radius: 0 0 10px 10px;
+          background-color: rgb(255, 255, 255);
+          }
+          .span-seller-one{
+            font-family: shabnam_1;
+            font-size: 12px;
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+            color: #757575;
+          }
+          .span-seller-two{
+            font-family: shabnam;
+            color: #0A5ABD;
+            position: absolute;
+            font-weight: 300;
+            left: 50px;
+            bottom: 15px;
+        }
+        .seller-bottom-cection2{
+            width: inherit;
+            height: 15px;
+            position: absolute;
+            bottom: 45px;
+            background-color: rgb(255, 255, 255);
+            
+            .del-seller{
+            font-family: shabnam;
+            font-size: 13px;
+            font-weight: lighter;
+            position: absolute;
+            left: 20px;
+            bottom: 0px;
+            color: #757575;
+            }
+          }
+        }
+        .seller-bottom-section3{
+            width: inherit;
+            height: 30px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            bottom: 75px;
+            .new-h1{
+                font-family: shabnam_1;
+                color:#000000;
+                font-size: 12px;
+                font-weight: lighter;
+                padding-top: 10px;
+                &:hover{
+                    color: #0A5ABD;
+                }
+            }
+        }
+        .seller-bottom-cection4{
+            width: inherit;
+            height: 15px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            bottom: 105px;
+            .new-h2{
+                font-family: shabnam_1;
+                color:#484848af;
+                font-size: 12px;
+                font-weight: lighter;
+                padding-bottom: 2px;
+            } 
+        }
+
+        .img-seller{
+            width: 235px;
+            height: auto;
+            position: absolute;
+            bottom: 115px;
+            border-radius: 10px;
+        }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    }
+    .non-cover{
+      width: inherit;
+    height: 60px;
+    
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(251, 224, 224, 0.602);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .non-exist{
+      font-family: shabnam_1;
+      font-size: 12px;
+      position: absolute;
+      
+      color: #6e0505a2;
+    }
+}

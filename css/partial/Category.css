@@ -1,0 +1,58 @@
+.parent-category{
+  width: 1570px;
+  height: 300px;
+
+
+  .top-Category {
+    width: inherit;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        font-family: shabnam;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+  }
+
+  .bottom-Category {
+    width: 1690px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .mySwiper1 {
+      width: 1220px;
+      height: 200px;
+      
+      overflow: hidden;
+      margin-right: 180px;
+      
+      
+      .swiper-wrapper {      
+        height: 100%;
+        padding-right: 27px;
+        
+      }
+      
+      .swiper-slide {
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        box-sizing: border-box;
+        
+        img {
+          width: 180px;
+          height: 180px;
+          object-fit: contain;
+          border-radius: 8px;
+        }
+      }
+
+      
+      }
+    }
+  }

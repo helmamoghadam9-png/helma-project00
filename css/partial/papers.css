@@ -1,0 +1,74 @@
+.paper-parent{
+    width: 1220px;
+    height:320px ;
+    
+    margin-right:180px;
+    .title-top-paper{
+        width: inherit;
+        height: 70px;
+        position: relative;
+        .span-title-paper{
+          font-family: shabnam;
+          font-size: 25px;
+          color:rgb(149, 149, 149) ;
+          font-weight: bold;
+        }
+        .span-open-paper{
+          font-family: shabnam;
+          font-size: 15px;
+          color:rgb(149, 149, 149) ;
+          margin-right: 960px;
+        }
+        .paper-svg{
+          
+          
+          position: absolute;
+          left: -15px;
+          top: -8px;
+        }
+        
+      }
+      .paper-items{
+        width: inherit;
+        height: 220px;
+           .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        width: 300px;
+        height: 218px;
+        background: #ffffff;
+        display: flex;
+        border-radius: 10px;
+        flex-flow: column;
+        box-shadow: 0 2px 5px rgba(157, 157, 157, 0.642);
+        .img-paper{
+          width: inherit;
+          height: 150px;
+          border-radius: 10px;
+        }
+        .span-paper{
+          font-family: shabnam_1;
+          font-size: 13px;
+          margin-top: 15px;
+          margin-left: 10px;
+          margin-right: 10px;
+          color: rgb(91, 91, 91);
+          &:hover{
+            color:#0A5ABD ;
+          }
+        }
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+          }
+}

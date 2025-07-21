@@ -1,0 +1,20 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+.wraper{
+    height: min-content;
+    background-color: #f1f1f1;
+}
+@font-face {
+    font-family: shabnam;
+    src: url(../font/fa/Shabnam-Medium-FD.eot);
+    src: url(../font/fa/Shabnam-Medium-FD.ttf);
+    src: url(../font/fa/Shabnam-Medium-FD.woff);
+    src: url(../font/fa/Shabnam-Medium-FD.woff2);
+}
+@font-face {
+    font-family:shabnam_1 ;
+    src: url(../font/fa/Shabnam.woff);
+}

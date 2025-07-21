@@ -1,0 +1,39 @@
+.parent-group{
+    width: 280px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 150px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 160px;
+    border-radius: 10px;
+    .top-title-group{
+font-family: shabnam_1;
+font-size: 18px;
+font-weight:bold ;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 150px;
+color: #0a5abd;
+    }
+    .group-item{
+        width: 240px;
+        height: 37px;
+        padding-top: 5px;
+        background-color: #f6f6f6;
+        border-radius: 13px;
+        margin-bottom: 7px;
+        transition: 50ms;
+        &:hover{
+            background-color: #e5e7eb;
+        }
+        .group-item-text{
+            font-family: shabnam_1;
+            font-size: 15px;
+            font-weight: lighter;
+            margin-right: 5px;
+        }
+    }
+    
+}

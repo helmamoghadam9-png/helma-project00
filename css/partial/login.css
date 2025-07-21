@@ -1,0 +1,70 @@
+.wraper{
+background-color: rgb(255, 255, 255);
+.parent-login{
+    width: 370px;
+    height: 450px;
+    background-color:#f7f8fa ;
+    margin-left: 620px;
+    margin-top: 250px;
+    border-radius: 10px;
+    padding: 15px;
+    .img-logo-login{
+        width: 160px;
+        height: 68px;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    .hr-login{
+        width: inherit;
+        height: 2px;
+        background-color: #e9edf3;
+        position: absolute;
+        top: 385px;
+    }
+    .h4-login{
+        font-family: shabnam;
+        font-size: 18px;
+        margin-top: 50px;
+        direction: rtl;
+    }
+    .h5-login{
+        font-family: shabnam_1;
+        font-size: 14px;
+        direction: rtl;
+        margin-top: 30px;
+    }
+    .input-login{
+        width: 313px;
+        height: 34px;
+        border-radius: 10px;
+        outline: auto;
+        margin-top: 25px;
+        margin-left: 15px;
+        direction: rtl;
+        font-family: shabnam;
+        padding-right: 3px;
+    }
+    .enter-to-site{
+        width: 313px;
+        height: 34px;
+        border-radius: 10px;
+        background-color: #80a9db;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: shabnam;
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+
+    }
+    .span-login{
+        font-family: shabnam;
+        font-size: 12px;
+        direction: rtl;
+        
+        margin-left: 40px;
+    }
+}
+}

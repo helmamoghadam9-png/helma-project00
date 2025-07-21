@@ -1,0 +1,47 @@
+.brand-parent{
+    width: 1220px;
+    height: 300px;
+    margin-right: 180px;
+    .top-title-brand{
+        width: 1120px;
+        height: 90px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        .h5-brand{
+            font-family: shabnam;
+            font-size: 23px;
+            color: rgb(149, 149, 149);
+        }
+    }
+    .brand-item{
+            .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        transition: 500ms;
+        &:hover{
+         margin-top: -15px;
+        }
+    }
+    
+    .swiper-slide img {
+        box-shadow: 1px 1px 7px  rgba(128, 128, 128, 0.5);
+      display: block;
+      width: 190px;
+      margin-bottom: 3px;
+      height: 110px;
+      margin-top: 20px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    }
+}

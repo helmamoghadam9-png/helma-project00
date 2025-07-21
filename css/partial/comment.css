@@ -1,0 +1,124 @@
+.parent-comment{
+    width: 970px;
+    height: 880px;
+    margin-right: 460px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    display: flex;
+    flex-flow: row;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    .input-comment-items{
+        width: 200px;
+        height: 150px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        margin-top: -9px;
+        .input_your-name , .input_your-email , .input_your-number{
+            width: 200px;
+            height: 30px;
+            position: relative;
+            columns: 0px;
+            font-family: shabnam_1;
+
+            margin-right: 10px;
+        }
+    }
+    .input_your-veiw{
+        width: 725px;
+        height: 128px; 
+        font-family: shabnam;
+        margin-right: 15px;
+        padding: 10px;
+        padding-bottom: 100px;
+    }
+    .parent-security{
+        width: 935px;
+        height: 110px;
+        background-color: #f7f8fa;
+        position: absolute;
+        margin-top: 155px;
+        margin-right: 15px;
+        border-radius: 10px;
+        display:flex ;
+        
+        align-items: center;
+        .Security-question{
+            width: 200px;
+            height: 40px;
+            font-family: shabnam;
+            margin-right: 270px;
+            margin-left: 10px;
+        }
+        .refresh{
+            margin-right: 10px;
+        }
+    }
+    .Register-comment{
+        width: 130px;
+        height: 40px;
+        position: absolute;
+        margin-top: 280px;
+        margin-right: 15px;
+        padding: 10px;
+        padding-right: 30px;
+        background-color: #8494ac;
+        border-radius: 5px;
+        font-family: shabnam;
+        color: #f7f8fa;
+        font-size: 14px;
+    }
+    .hr-comment{
+        width: 940px;
+        height: 1.5px;
+        background-color:#8494ac79;
+        position: absolute;
+        margin-top: 350px;
+        margin-right: 15px;
+    }
+    .h1-comment{
+        font-family: shabnam;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 370px;
+        margin-right: 15px;
+    }
+    .number-circle-comment{
+        position: absolute;
+        margin-top: 370px;
+        margin-right: 130px;
+    }
+    .comment-items{
+        width: 940px;
+        height: 410px;
+        position: absolute;
+        margin-top: 440px;
+        margin-right: 15px;
+        
+        .comment-item{
+            width: inherit;
+            height: 100px;
+            
+        }
+        .name-comment{
+            font-family: shabnam;
+            font-size: 16px;
+            display: inline;
+            margin-top: 0px;
+        }
+        .date-comment{
+            font-family: shabnam;
+            font-size: 12px;
+            color: #757575;
+            display: inline;
+            margin-top: 0px;
+        }
+        .comment{
+            font-family: shabnam;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    }
+}

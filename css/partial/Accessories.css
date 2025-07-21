@@ -1,0 +1,149 @@
+.parent-Accessories{
+    width: 980px;
+    height: 4400px;
+    margin-right: 450px;
+    position: absolute;
+    top: 160px;
+    .top-part-Accessories{
+        width: inherit;
+        height: 145px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        padding: 15px;
+        .top-title-Accessories{
+            font-family: shabnam;
+            font-size:19px ;
+            color : #0a5abd;
+            display: block;
+            
+        }
+        .span-part1-Accessories , .span-part2-Accessories {
+            font-family: shabnam_1;
+            font-size: 12px;
+        }
+        .span-part1-Accessories{
+            color: #636363;
+            &:hover{
+                color: #000000;
+            }
+        }
+        .span-part2-Accessories{
+            color: #0a5abd;
+            font-size: 13px
+        }
+        .svg-sort{
+            position: relative;
+            right:-30px;
+            top: -10px;
+        }
+        .sort-Accessories{
+            position: relative;
+            right:-55px;
+            top: -50px;
+            font-family: shabnam;
+            font-size: 13px;
+            color: #636363;
+        }
+    }
+    .bottom-part-Accessories{
+        width: inherit;
+        height: 510px;
+        display: flex;
+        margin-top: 20px;
+        flex-flow: row wrap;
+        row-gap: 10px;
+        
+    .items-Accessories{
+        width: 310px;
+        height: 510px;
+        background-color: #ffffff;
+        position: relative;
+        border-radius: 15px;
+        margin-right:15px;
+        
+        .img-Accessories{
+            width: 300px;
+            height: auto;
+            margin: 5px;
+        }
+        .Accessories-bottom-section1{
+            width: inherit;
+            height: 45px;
+            .Accessories-h2{
+                font-family: shabnam_1;
+                font-size: 14px;
+                text-align: center;
+                font-weight: lighter;
+            }
+            
+        }
+        hr{
+            
+            color: #000000;
+        }
+        .Accessories-bottom-section2{
+            width: inherit;
+            height: 75px;
+            padding-left: 15px;
+            padding-right: 15px;
+            .Accessories-h1{
+                font-family: shabnam_1;
+                font-size: 16px;
+                text-align: center;
+                font-weight: lighter;
+            }
+        }
+        .Accessories-bottom-cection3{
+            width: inherit;
+            height: 74px;
+            margin-top: 2px;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            padding: 15px;
+            .span-Accessories-one , .span-Accessories-two{
+                font-family: shabnam;
+                margin-right: 5px;
+            }
+            .span-Accessories-one{
+            font-family: shabnam;
+            color: #0A5ABD;
+            font-weight: 300;
+            font-size: 18px;
+            }
+            .span-Accessories-two{
+            font-family: shabnam_1;
+            
+            color: #757575;
+            }
+        }
+    }
+    }
+    .parent-pages-Accessories{
+        width: 970px;
+        height: 71px;
+        margin-right: 10px;
+        background-color: #ffffff;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        border-radius: 15px;
+        .item-pages-Accessories{
+            width: 300px;
+            height: inherit;
+            
+            display: flex;
+            flex-flow:row-reverse;
+            row-gap: 10px;
+            justify-content: flex-start;
+            justify-content: space-between;
+            align-items: center;
+            font-family: shabnam;
+            font-size:15px;
+            color: #636363;
+            .span-forward , .span-forward-double{
+                margin-top: 5px;
+            }
+    }
+}
+}
