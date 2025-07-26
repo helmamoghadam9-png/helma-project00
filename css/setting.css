@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 .wraper{
-    height: min-content;
+    height: max-content;
     background-color: #f1f1f1;
 }
 @font-face {
