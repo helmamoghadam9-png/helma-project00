@@ -11,6 +11,6 @@
   "description": "",
   "dependencies": {
     "react": "^19.1.0",
-    "swiper": "^11.2.8"
+    "swiper": "^11.2.10"
   }
 }
